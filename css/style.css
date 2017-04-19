@@ -37,7 +37,7 @@ p {
 	margin: 0;
 	overflow: hidden;
 	text-align: justify;
-	word-break: break-all;
+	word-break: keep-all;
 }
 
 .column p {
