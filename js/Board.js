@@ -7,16 +7,10 @@ var board = {
 	element: $('#board .column-container')
 };
 
-$('.create-column').click(function() {
-	var columnName = prompt('Wpisz nazwę kolumny');
-	board.createColumn(new Column(columnName));
-});
-
-
 $('.create-column')
     .click(function() {
-        var columnName = prompt('Wpisz nazwę kolumny');
-        $.ajax({
+      var columnName = prompt('Wpisz nazwę kolumny');
+      $.ajax({
     		url: baseUrl + '/column',
     		method: 'POST',
     		data: {
@@ -26,7 +20,7 @@ $('.create-column')
     			var column = new Column(response.id, columnName);
     			board.createColumn(column);
           	}
-        });
+      });
 });
 	
 function initSortable() {
