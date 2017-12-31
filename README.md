@@ -1,4 +1,4 @@
-# tablica kanban
+# kanban table
 
 demo:
 
