@@ -2,4 +2,4 @@
 
 demo:
 
-https://xenogonx.github.io/exercise_11_7/index.html
+https://xenogonx.github.io/kanban_table/index.html
