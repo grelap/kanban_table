@@ -1,5 +1,5 @@
-# exercise_11_7
+# tablica kanban
 
-Kanban table 
+demo:
 
-[Preview](https://htmlpreview.github.io/?https://github.com/xenogonx/exercise_11_7/blob/master/index.html)
+https://xenogonx.github.io/exercise_11_7/index.html
