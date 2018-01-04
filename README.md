@@ -2,4 +2,4 @@
 
 demo:
 
-https://xenogonx.github.io/kanban_table/index.html
+https://grelap.github.io/kanban_table/index.html
